@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./public/style.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="./public/images/todo-icon.png"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>ToDo App</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Tasks</h1>
+        </header>
+        <main>
+            <input
+                type="text"
+                placeholder="Add a task"
+                id="todo-input"
+                maxlength="50"
+            />
+            <button id="add-todo-btn"><i class="fa fa-plus"></i></button>
+            <button id="refresh-btn"><i class="fa fa-refresh"></i></button>
+            <div>
+                <input
+                    placeholder="Search by task"
+                    id="search-input"
+                    maxlength="50"
+                />
+            </div>
+
+            <section hidden id="update-row">
+                <label></label>
+                <input type="text" id="update-todo-input" maxlength="30" />
+                <button id="update-row-btn">Update</button>
+            </section>
+
+            <table id="table">
+                <tbody></tbody>
+            </table>
+        </main>
+        <script type="module" src="./src/index.js"></script>
+    </body>
+</html>
