@@ -2,7 +2,7 @@
 
 ## 1. Link and Preview
 
-Project link is available at [ToDo App](https://github.com/)
+Project link is available at [ToDo App](https://aligoknl.github.io/ToDo-App/client/index.html)
 
 ![Preview of ToDo App!](/client/public/images/todo.GIF)
 
